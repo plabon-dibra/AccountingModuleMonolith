@@ -1,0 +1,6 @@
+@Accounting.BillingOrchestrator.API_HostAddress = http://localhost:5263
+
+GET {{Accounting.BillingOrchestrator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

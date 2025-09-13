@@ -1,0 +1,6 @@
+@Accounting.SalesSubsystem.API_HostAddress = http://localhost:5011
+
+GET {{Accounting.SalesSubsystem.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

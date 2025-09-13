@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.BillingSubsystem.Handler\Accounting.BillingSubsystem.Handler.csproj" />
+    <ProjectReference Include="..\Accounting.CustomerSubsystem.Handler\Accounting.CustomerSubsystem.Handler.csproj" />
+    <ProjectReference Include="..\Accounting.JournalSubsystem.Handler\Accounting.JournalSubsystem.Handler.csproj" />
+    <ProjectReference Include="..\Accounting.SalesSubsystem.Handler\Accounting.SalesSubsystem.Handler.csproj" />
+    <ProjectReference Include="..\ShearSubsystem.Handlers\ShareSubsystem.Handlers.csproj" />
+  </ItemGroup>
+
+</Project>

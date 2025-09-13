@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.JournalSubsystem.Aggregators\Accounting.JournalSubsystem.Aggregators.csproj" />
+    <ProjectReference Include="..\Accounting.JournalSubsystem.DTOs\Accounting.JournalSubsystem.DTOs.csproj" />
+    <ProjectReference Include="..\Accounting.JournalSubsystem.Repositories\Accounting.JournalSubsystem.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
